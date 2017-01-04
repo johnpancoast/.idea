@@ -1,14 +1,14 @@
-# .idea/ reusable project files for intellij
+# .idea (reusable intellij project files)
 
-At the moment it just includes File templates for intellij idea (and possibly other intellij products).
+Project files for intellij IDEA (and possibly other intellij IDEs)
 
 Includes templates for
 
 * PHP
 
 ## Usage
-I use this as per-project settings in idea (there might be another way, default
-settings etc) but this works.
+I use file templates as per-project settings in idea (there might be another
+way, default settings etc) but this works.
 
 so for each project, do this...
 
@@ -21,6 +21,7 @@ so for each project, do this...
     cd .idea/
     git init
     git remote add origin git@github.com:johnpancoast/.idea.git
+    git fetch
     git merge origin/master # assuming no file conflicts
     ```
 * Re-open the project. *`Idea` seems to load the templates on open and save them
