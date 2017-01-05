@@ -7,8 +7,9 @@ Includes templates for
 * PHP
 
 ## Usage
-I use file templates as per-project settings in idea (there might be another
-way, default settings etc) but this works.
+I use file templates as [per-project
+settings](https://www.jetbrains.com/help/idea/2016.3/file-and-code-templates.html#d2040410e142)
+in idea (there might be another way, default settings etc) but this works.
 
 so for each project, do this...
 
