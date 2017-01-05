@@ -12,7 +12,9 @@ way, default settings etc) but this works.
 
 so for each project, do this...
 
-* Close the project in your IDE.
+* Close the project in your IDE. *`Idea` seems to load the templates on open
+  and save them to the files when you edit in your IDE so this seems safest.*
+ 
 * Copy this repository's contents to the `.idea/` directory of your project or
   do something equivalent to this:
 
@@ -22,14 +24,10 @@ so for each project, do this...
     cd .idea/
     git init
     git remote add origin git@github.com:johnpancoast/.idea.git
-    git fetch
-    git merge origin/master # assuming no file conflicts
+    git pull origin/master
     ```
-* Re-open the project. *`Idea` seems to load the templates on open and save them
-  into memory so the files will be overritten with whatever you create in
-  IDE. It's better just to close the project when dealing with the template
-  files IMO.*.
+* Re-open the project (ignore message in IDE about new git repo).
 * In the IDE go to `[settings] > Editor > File and Code Templates`.
-* Change the `Schema` option to "Project". 
+* Change the `Schema` option to "Project" (the option is up top, to the right). 
 * Select the `Include` tab.
 * Select the `Settings` include file and edit the settings for your project.
