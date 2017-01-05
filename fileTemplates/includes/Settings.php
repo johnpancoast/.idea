@@ -24,8 +24,8 @@
 ## (remember, two hashes)
 ## #set($LICENSE = "MIT")
 ##
-## Set year from start year
-#if(${YEAR} > ${START_YEAR})
+## Set year from start year (can only do string comparison apparently)
+#if(${YEAR} != ${START_YEAR})
     #set($COPY_YEAR = "${START_YEAR}-${YEAR}")
 #else
     #set($COPY_YEAR = "${START_YEAR}")

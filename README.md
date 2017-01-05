@@ -17,6 +17,7 @@ so for each project, do this...
   do something equivalent to this:
 
     ###### CLI example
+
     ```bash
     cd .idea/
     git init
