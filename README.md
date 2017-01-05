@@ -13,7 +13,8 @@ way, default settings etc) but this works.
 so for each project, do this...
 
 * Close the project in your IDE. *`Idea` seems to load the templates on open
-  and save them to the files when you edit in your IDE so this seems safest.*
+  one time and saves them to memory. It then updates the files as you edit in
+  your IDE, so this seems safest.*
  
 * Copy this repository's contents to the `.idea/` directory of your project or
   do something equivalent to this:
