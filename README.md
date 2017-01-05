@@ -18,7 +18,7 @@ so for each project, do this...
 * Copy this repository's contents to the `.idea/` directory of your project or
   do something equivalent to this:
 
-    ###### CLI example
+    *CLI example*
 
     ```bash
     cd .idea/
