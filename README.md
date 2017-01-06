@@ -26,7 +26,7 @@ so for each project, do this...
     cd .idea/
     git init
     git remote add origin git@github.com:johnpancoast/.idea.git
-    git pull origin/master
+    git pull origin master
     ```
 * Re-open the project (either ignore message in IDE about new git repo or remove `.idea/.git` directory).
 * In the IDE go to `[settings] > Editor > File and Code Templates`.
