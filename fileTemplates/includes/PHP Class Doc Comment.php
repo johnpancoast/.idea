@@ -1,1 +1,1 @@
-#parse("Class Doc Common.php")
+#parse("Class Doc Comment.php")
