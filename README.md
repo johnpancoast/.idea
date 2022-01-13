@@ -1,6 +1,8 @@
 # .idea (reusable intellij project files)
 
-Project files for intellij IDEA (and possibly other intellij IDEs)
+*This project is defunct and just here to see old examples.*
+
+Project files for intellij IDEA (and possibly other intellij IDEs).
 
 Includes templates for
 
